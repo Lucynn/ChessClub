@@ -10,71 +10,59 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-  <script>
-    $('.feat-btn').click(function (){
-      $('.sidebar ul .feat-show').toggleClass("show");
-      $('.sidebar ul .first').toggleClass("rotate");
-    });
-
-    $('.sidebar ul li').click(function (){
-      $(this).addClass("active").siblings().removeClass("avtive");
-    });
-  </script>
 </head>
 
 <body>
   <header>
-    <!--navbar-->
-    <!--
-    <nav class="navbar-padding-vertical has-background-black" role="navigation" aria-label="dropdown navigation">
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-arrowless has-background-black"  href="chesshome.html"><img src="chesslogo.png"></a>
-    
-        <div class="navbar-dropdown has-background-black">
-          <a class="navbar-item"  href="chesshome.html">
-            Home
-          </a>
-          <a class="navbar-item" herf="service.html">
-            Services
-          </a>
-          <a class="navbar-item" href="aboutus.html">
-            About Us
-          </a>
-          <hr class="navbar-divider has-background-black">
-          <div class="navbar-item">
-            Version 0.0.1
-          </div>
-        </div>
-      </div>
-    </nav>-->
-
-    <!-- New Navbar -->
-  <!--<div class="wrapper">-->
-      <nav class="sidebar">
+    <nav class="sidebar">
+        <div class="text">Slide Menu</div>
         <ul>
-            <li><a href="index.html"><i class="fas fa-chess-king"></i>Home</a></li>
-            <li><a href="services.html"><i class="fas fa-concierge-bell"></i>Services</a></li>
-            <li><a href="#" class="feat-btn"><i class="fas fa-play"></i>Play<span class="fas fa-caret-down first"></span></a>
-                <ul class="feat-show">
-                    <li><a href="computer.html"><i class="fa-robot">Computer</i></a></li>
-                    <li><a href="online.html"><i class="fa-globe">Online Multiplayer</i></a></li>
-                    <li><a href="local.html"><i class="fa-map-marker-alt">Local Multiplayer</i></a></li>
-                </ul>
-            </li>
-            <li><a href="learn.html"><i class="fas fa-book-open"></i>Learn</a></li>        
-            <li><a href="help.html"><i class="fas fa-info-circle"></i>Help</a></li>
-            <li><a href="news.html"><i class="fas fa-newspaper"></i>News</a></li>
-            <li><a href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
-            <li><a href="aboutus.html"><i class="fas fa-address-card"></i>About Us</a></li>
-            <li><a href="contactus.html"><i class="fas fa-address-book"></i>Contact Us</a></li>
+          <li>
+            <a href="index.html"><i class="fas fa-chess-king"></i>Home</a>
+          </li>
 
-        
-          </ul>
-          <a class="ver has-text-grey">V.1.0</a>
+          <li>
+            <a href="services.html"><i class="fas fa-concierge-bell"></i>Services</a>
+          </li>
+          
+          <li>
+            <a href="#" class="feat-btn"><i class="fas fa-play"></i>Play<span class="fas fa-caret-down first"></span></a>
+            <ul class="feat-show">
+              <li>
+                <a href="computer.html"><i class="fa-robot">Computer</i></a>
+              </li>
+              <li>
+                <a href="online.html"><i class="fa-globe">Online Multiplayer</i></a>
+              </li>
+              <li>
+                <a href="local.html"><i class="fa-map-marker-alt">Local Multiplayer</i></a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="learn.html"><i class="fas fa-book-open"></i>Learn</a>
+          </li>        
+          <li>
+            <a href="help.html"><i class="fas fa-info-circle"></i>Help</a>
+          </li>
+          <li>
+            <a href="news.html"><i class="fas fa-newspaper"></i>News</a>
+          </li>
+          <li>
+            <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
+          </li>
+          <li>
+            <a href="aboutus.html"><i class="fas fa-address-card"></i>About Us</a>
+          </li>
+          <li>
+            <a href="contactus.html"><i class="fas fa-address-book"></i>Contact Us</a>
+          </li>
+        </ul>
+        <a class="ver has-text-grey">V.1.0</a>
       </nav>
     </header>
+
     <!--main content-->
     <section class="hero is-dark">
       <div class="hero-body">
@@ -83,61 +71,19 @@
           The Chess Club
           </h1>
           <a href="https://time.is/London" id="time_is_link" rel="nofollow" style="font-size:15px">Time in London:</a>
-<span id="London_z716" style="font-size:15px"></span>
-<script src="//widget.time.is/t.js"></script>
-<script>
-time_is_widget.init({London_z716:{}});
-</script>
-<a class="weatherwidget-io" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="London" data-label_2="Weather" data-theme="dark" data-basecolor="#363636" data-accent="rgba(255, 255, 255, 0.0)" >LONDON WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-</script>
+          <span id="London_z716" style="font-size:15px"></span>
+          <script src="//widget.time.is/t.js"></script>
+          <script>
+            time_is_widget.init({London_z716:{}});
+          </script>
+          <a class="weatherwidget-io" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="London" data-label_2="Weather" data-theme="dark" data-basecolor="#363636" data-accent="rgba(255, 255, 255, 0.0)" >LONDON WEATHER</a>
+          <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+          </script>
+        </div>
+      </div>
 
-        </div>
-        </div>
-      <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde nihil vero, iste enim veritatis voluptas, tempore deleniti est assumenda ipsa nostrum necessitatibus molestias excepturi repellat officia optio nesciunt dolor.
-      Laborum est, unde libero facilis maiores, facere delectus mollitia distinctio velit provident alias dicta laudantium officiis suscipit tempore eius consectetur enim. Hic saepe veritatis autem at illo laboriosam sapiente quis?
-      Ipsum accusamus autem voluptatibus nam, obcaecati quo quisquam dolor nesciunt sequi eius, facere veritatis unde sit quia quidem deserunt! Alias illum ad quibusdam totam laudantium dignissimos explicabo quaerat dicta odit!
-      Dolorem, possimus adipisci nam aperiam quaerat debitis id excepturi laborum hic alias reprehenderit. Facere nam, consectetur, sed dolore ducimus numquam voluptatem eveniet suscipit reprehenderit id ipsam labore quasi, rem totam?
-      Quis, officiis? Exercitationem animi odit, at facere optio eos adipisci? Voluptate magni eaque porro corporis quos deleniti ducimus. Harum possimus reprehenderit eligendi repellat repellendus aperiam dicta nemo commodi recusandae fugiat!
-      Ab magni ex aliquid cum sit ad architecto at, excepturi, vitae blanditiis tenetur accusamus, quasi laborum eveniet dolore eum deserunt cumque facere quas quis molestiae! Molestias non facere voluptas iste?
-      Ratione consequatur aliquam nostrum aspernatur excepturi reprehenderit cumque dolor in, sed neque incidunt vitae! Ipsum iste possimus blanditiis natus architecto sint. Est velit impedit odio! Ad itaque accusantium error libero.
-      Porro eveniet maxime itaque similique vitae libero animi dolorem minus architecto autem, ipsum doloribus praesentium voluptas veniam accusantium sequi. Incidunt illo, nobis ad esse quaerat porro iure magni. Similique, iure.
-      Sint commodi fugit esse excepturi, nisi non, vero assumenda temporibus mollitia, magni perferendis amet incidunt eveniet est laboriosam aliquam autem. Dolorem accusamus qui laborum mollitia nostrum molestias voluptatem vitae a.
-      Dolorum provident animi labore optio dicta doloribus veritatis. In voluptas similique hic corporis quod aperiam delectus, magnam animi natus exercitationem quibusdam atque inventore distinctio architecto officiis cupiditate necessitatibus libero possimus.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde nihil vero, iste enim veritatis voluptas, tempore deleniti est assumenda ipsa nostrum necessitatibus molestias excepturi repellat officia optio nesciunt dolor.
-      Laborum est, unde libero facilis maiores, facere delectus mollitia distinctio velit provident alias dicta laudantium officiis suscipit tempore eius consectetur enim. Hic saepe veritatis autem at illo laboriosam sapiente quis?
-      Ipsum accusamus autem voluptatibus nam, obcaecati quo quisquam dolor nesciunt sequi eius, facere veritatis unde sit quia quidem deserunt! Alias illum ad quibusdam totam laudantium dignissimos explicabo quaerat dicta odit!
-      Dolorem, possimus adipisci nam aperiam quaerat debitis id excepturi laborum hic alias reprehenderit. Facere nam, consectetur, sed dolore ducimus numquam voluptatem eveniet suscipit reprehenderit id ipsam labore quasi, rem totam?
-      Quis, officiis? Exercitationem animi odit, at facere optio eos adipisci? Voluptate magni eaque porro corporis quos deleniti ducimus. Harum possimus reprehenderit eligendi repellat repellendus aperiam dicta nemo commodi recusandae fugiat!
-      Ab magni ex aliquid cum sit ad architecto at, excepturi, vitae blanditiis tenetur accusamus, quasi laborum eveniet dolore eum deserunt cumque facere quas quis molestiae! Molestias non facere voluptas iste?
-      Ratione consequatur aliquam nostrum aspernatur excepturi reprehenderit cumque dolor in, sed neque incidunt vitae! Ipsum iste possimus blanditiis natus architecto sint. Est velit impedit odio! Ad itaque accusantium error libero.
-      Porro eveniet maxime itaque similique vitae libero animi dolorem minus architecto autem, ipsum doloribus praesentium voluptas veniam accusantium sequi. Incidunt illo, nobis ad esse quaerat porro iure magni. Similique, iure.
-      Sint commodi fugit esse excepturi, nisi non, vero assumenda temporibus mollitia, magni perferendis amet incidunt eveniet est laboriosam aliquam autem. Dolorem accusamus qui laborum mollitia nostrum molestias voluptatem vitae a.
-      Dolorum provident animi labore optio dicta doloribus veritatis. In voluptas similique hic corporis quod aperiam delectus, magnam animi natus exercitationem quibusdam atque inventore distinctio architecto officiis cupiditate necessitatibus libero possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde nihil vero, iste enim veritatis voluptas, tempore deleniti est assumenda ipsa nostrum necessitatibus molestias excepturi repellat officia optio nesciunt dolor.
-      Laborum est, unde libero facilis maiores, facere delectus mollitia distinctio velit provident alias dicta laudantium officiis suscipit tempore eius consectetur enim. Hic saepe veritatis autem at illo laboriosam sapiente quis?
-      Ipsum accusamus autem voluptatibus nam, obcaecati quo quisquam dolor nesciunt sequi eius, facere veritatis unde sit quia quidem deserunt! Alias illum ad quibusdam totam laudantium dignissimos explicabo quaerat dicta odit!
-      Dolorem, possimus adipisci nam aperiam quaerat debitis id excepturi laborum hic alias reprehenderit. Facere nam, consectetur, sed dolore ducimus numquam voluptatem eveniet suscipit reprehenderit id ipsam labore quasi, rem totam?
-      Quis, officiis? Exercitationem animi odit, at facere optio eos adipisci? Voluptate magni eaque porro corporis quos deleniti ducimus. Harum possimus reprehenderit eligendi repellat repellendus aperiam dicta nemo commodi recusandae fugiat!
-      Ab magni ex aliquid cum sit ad architecto at, excepturi, vitae blanditiis tenetur accusamus, quasi laborum eveniet dolore eum deserunt cumque facere quas quis molestiae! Molestias non facere voluptas iste?
-      Ratione consequatur aliquam nostrum aspernatur excepturi reprehenderit cumque dolor in, sed neque incidunt vitae! Ipsum iste possimus blanditiis natus architecto sint. Est velit impedit odio! Ad itaque accusantium error libero.
-      Porro eveniet maxime itaque similique vitae libero animi dolorem minus architecto autem, ipsum doloribus praesentium voluptas veniam accusantium sequi. Incidunt illo, nobis ad esse quaerat porro iure magni. Similique, iure.
-      Sint commodi fugit esse excepturi, nisi non, vero assumenda temporibus mollitia, magni perferendis amet incidunt eveniet est laboriosam aliquam autem. Dolorem accusamus qui laborum mollitia nostrum molestias voluptatem vitae a.
-      Dolorum provident animi labore optio dicta doloribus veritatis. In voluptas similique hic corporis quod aperiam delectus, magnam animi natus exercitationem quibusdam atque inventore distinctio architecto officiis cupiditate necessitatibus libero possimus.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde nihil vero, iste enim veritatis voluptas, tempore deleniti est assumenda ipsa nostrum necessitatibus molestias excepturi repellat officia optio nesciunt dolor.
-      Laborum est, unde libero facilis maiores, facere delectus mollitia distinctio velit provident alias dicta laudantium officiis suscipit tempore eius consectetur enim. Hic saepe veritatis autem at illo laboriosam sapiente quis?
-      Ipsum accusamus autem voluptatibus nam, obcaecati quo quisquam dolor nesciunt sequi eius, facere veritatis unde sit quia quidem deserunt! Alias illum ad quibusdam totam laudantium dignissimos explicabo quaerat dicta odit!
-      Dolorem, possimus adipisci nam aperiam quaerat debitis id excepturi laborum hic alias reprehenderit. Facere nam, consectetur, sed dolore ducimus numquam voluptatem eveniet suscipit reprehenderit id ipsam labore quasi, rem totam?
-      Quis, officiis? Exercitationem animi odit, at facere optio eos adipisci? Voluptate magni eaque porro corporis quos deleniti ducimus. Harum possimus reprehenderit eligendi repellat repellendus aperiam dicta nemo commodi recusandae fugiat!
-      Ab magni ex aliquid cum sit ad architecto at, excepturi, vitae blanditiis tenetur accusamus, quasi laborum eveniet dolore eum deserunt cumque facere quas quis molestiae! Molestias non facere voluptas iste?
-      Ratione consequatur aliquam nostrum aspernatur excepturi reprehenderit cumque dolor in, sed neque incidunt vitae! Ipsum iste possimus blanditiis natus architecto sint. Est velit impedit odio! Ad itaque accusantium error libero.
-      Porro eveniet maxime itaque similique vitae libero animi dolorem minus architecto autem, ipsum doloribus praesentium voluptas veniam accusantium sequi. Incidunt illo, nobis ad esse quaerat porro iure magni. Similique, iure.
-      Sint commodi fugit esse excepturi, nisi non, vero assumenda temporibus mollitia, magni perferendis amet incidunt eveniet est laboriosam aliquam autem. Dolorem accusamus qui laborum mollitia nostrum molestias voluptatem vitae a.
-      Dolorum provident animi labore optio dicta doloribus veritatis. In voluptas similique hic corporis quod aperiam delectus, magnam animi natus exercitationem quibusdam atque inventore distinctio architecto officiis cupiditate necessitatibus libero possimus.</p>-->
       <!--<div><iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>-->
-
-
       <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
       <article class="message is-dark">
         <div class="message-header">
@@ -149,6 +95,8 @@ time_is_widget.init({London_z716:{}});
         </div>
       </article>
     </section>
-  <!--</div> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
