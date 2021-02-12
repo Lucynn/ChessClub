@@ -15,48 +15,53 @@
 <body>
   <header>
     <nav class="sidebar">
-        <div class="text">Slide Menu</div>
+        
         <ul>
+
           <li>
-            <a href="index.html"><i class="fas fa-chess-king"></i>Home</a>
+            <a href='#' id="hamburger"><i class="fas fa-bars"></i></a>
           </li>
 
           <li>
-            <a href="services.html"><i class="fas fa-concierge-bell"></i>Services</a>
+            <a href="index.html" id="home"><i class="fas fa-chess-king"></i></a>
+          </li>
+
+          <li>
+            <a href="services.html" id="services"><i class="fas fa-concierge-bell"></i></a>
           </li>
           
           <li>
-            <a href="#" class="feat-btn"><i class="fas fa-play"></i>Play<span class="fas fa-caret-down first"></span></a>
+            <a href="#" class="feat-btn" id="play"><i class="fas fa-play"></i><!--<span class="fas fa-caret-down first"></span>--></a>
             <ul class="feat-show">
               <li>
-                <a href="computer.html"><i class="fa-robot">Computer</i></a>
+                <a href="computer.html" id="computer"><i class="fas fa-robot"></i><em>Computer</em></a>
               </li>
               <li>
-                <a href="online.html"><i class="fa-globe">Online Multiplayer</i></a>
+                <a href="online.html" id="Omultiplayer"><i class="fas fa-globe"></i><em>Online Multiplayer</em></a>
               </li>
               <li>
-                <a href="local.html"><i class="fa-map-marker-alt">Local Multiplayer</i></a>
+                <a href="local.html" id="Lmultiplayer"><i class="fas fa-map-marker-alt"></i><em>Local Multiplayer</em></a>
               </li>
             </ul>
           </li>
 
           <li>
-            <a href="learn.html"><i class="fas fa-book-open"></i>Learn</a>
+            <a href="learn.html" id="learn"><i class="fas fa-book-open"></i></a>
           </li>        
           <li>
-            <a href="help.html"><i class="fas fa-info-circle"></i>Help</a>
+            <a href="help.html" id="news"><i class="fas fa-newspaper"></i></a>
           </li>
           <li>
-            <a href="news.html"><i class="fas fa-newspaper"></i>News</a>
+            <a href="news.html" id="blog"><i class="fas fa-blog"></i></a>
           </li>
           <li>
-            <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
+            <a href="blog.html" id="help"><i class="fas fa-info-circle"></i></a>
           </li>
           <li>
-            <a href="aboutus.html"><i class="fas fa-address-card"></i>About Us</a>
+            <a href="aboutus.html" id="aboutus"><i class="fas fa-address-card"></i></a>
           </li>
           <li>
-            <a href="contactus.html"><i class="fas fa-address-book"></i>Contact Us</a>
+            <a href="contactus.html" id="contactus"><i class="fas fa-address-book"></i></a>
           </li>
         </ul>
         <a class="ver has-text-grey">V.1.0</a>
@@ -64,7 +69,7 @@
     </header>
 
     <!--main content-->
-    <section class="hero is-dark">
+    <section class="hero is-dark is-bold">
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-left">
@@ -85,7 +90,7 @@
 
       <!--<div><iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>-->
       <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
-      <article class="message is-dark">
+      <!--<article class="message is-dark">
         <div class="message-header">
           <p>Dark</p>
           <button class="delete" aria-label="delete"></button>
@@ -93,8 +98,47 @@
         <div class="message-body">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
         </div>
-      </article>
+      </article>-->
     </section>
+
+    <div class="tile is-ancestor main">
+      <div class="tile is-parent is-4by5">
+        <article class="tile is-child box homeChessbg">
+          <div class="content">
+            <p class="title">Welcome!</p>
+            <p class="subtitle">To the chess club. Here are the rules.</p>
+            <div class="content mainText">
+              <ol id="rules">
+                <li>| You don’t talk about Chess club.</li>
+                <li>|<em> YOU DO NOT TALK ABOUT CHESS CLUB.</em></li>
+                <li>| Someone yells stop, gives up, taps out, the match is over.</li> 
+                <li>| Only two people to a match.</li>
+                <li>| One match at a time Fellas.</li>
+                <li>| Matches will go on as long as they have to.</li>
+                <li>| If this is your first night at Chess club, you have to Play.</li>             
+              </ol>  
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent is-4by3">
+        <article class="tile is-child box homeChessbg">
+          <p class="title">Learn to Play!</p>
+          <p class="subtitle">Best way to learn is by watching.</p>
+          <figure class="image">
+            <iframe src="https://lichess.org/tv/frame?theme=green-plastic&bg=dark" id="homeChess" allowtransparency="true" frameborder="0"></iframe>
+          </figure>
+        </article>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer has-background-black-bis is-bold">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Chess Club</strong> is created by</a>. The dream team!
+        </p>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="js/main.js"></script>

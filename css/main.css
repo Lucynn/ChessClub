@@ -3,18 +3,24 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
+body{
+    background: rgb(180, 192, 206);
+}
+
+/* sidebar */
 .sidebar{
     z-index: 100;
     position: fixed;
-    width: 250px;
+    width: 75px;
     height: 100%;
     left: 0;
     background: #000;
 }
 
+/*
 .sidebar .text{
     color: white;
     font-size: 25px;
@@ -23,7 +29,7 @@
     text-align: center;
     background: #1e1e1e;
     letter-spacing: 1px;
-}
+}*/
 
 nav ul{
     background: #1b1b1b;
@@ -34,11 +40,11 @@ nav ul{
 
 nav ul li{
     line-height: 60px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0);
 }
 
 nav ul li:last-child{
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 nav ul li a{
@@ -46,7 +52,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    padding-left: 40px;
+    padding-left: 25px;
     font-weight: 500;
     display: block;
     width: 100%;
@@ -54,9 +60,20 @@ nav ul li a{
 }
 
 nav ul li.active a{
-    color: rgb(0, 255, 128);
+    color: rgb(67, 99, 141);
     background: #1e1e1e;
-    color: rgb(0, 255, 128);
+    color: rgb(67, 99, 141);
+}
+
+nav ul li a:hover i{
+    background: #1e1e1e;
+}
+
+/* Icons */
+nav ul li a:hover i{
+    color: rgb(180, 192, 206);
+    background: #1e1e1e;
+    color: rgb(180, 192, 206);
 }
 
 nav ul ul{
@@ -74,20 +91,26 @@ nav ul ul li{
 }
 
 nav ul ul li a{
-    font-size: 17px;
+    font-size: 15px;
     color: #e6e6e6;
-    padding-left: 80px;
+    padding-left: 10px;
 }
 
 nav ul li.active ul li a{
     color: #e6e6e6;
-    background: #1b1b1b;
+    background: rgb(67, 99, 141);
     border-left-color: transparent;
+    width: 100%;
 }
 
 nav ul ul li a:hover{
-    color: cyan !important;
-    background: #1e1e1e !important;
+    color: rgb(180, 192, 206) !important;
+    background: rgb(180, 192, 206) !important;
+}
+
+nav ul ul li a:hover i{
+    color: #fff;
+    background: rgb(180, 192, 206) !important;
 }
 
 nav ul li a span{
@@ -103,14 +126,51 @@ nav ul li a span.rotate{
     transform: translateY(-50%) rotate(-180deg);
 }
 
+.icon{
+    background: red;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+}
+
 i{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .ver{
     bottom: 10px;
-    left: 50px; 
+    left: 25%; 
     position: absolute;
 }
 
 /* main */
+
+.main{
+    margin-left: 3% !important;
+    text-align: center !important;
+}
+
+.mainText p{
+    color: #1b1b1b !important;
+    
+}
+
+#homeChess{
+    width: 500px !important;
+    height: 500px !important;
+}
+
+.homeChessbg{
+    background: rgb(180, 192, 206);
+}
+
+#rules li{
+    color: #1b1b1b;
+    font-size: 15px;
+}
+
+/* Footer */
