@@ -126,12 +126,10 @@ nav ul li a span.rotate{
     transform: translateY(-50%) rotate(-180deg);
 }
 
-.icon{
-    background: red;
+.ficon{
+    color: #fff;
+    background: #fff;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 100%;
     font-size: 25px;
     width: 25px;
     height: 25px;
@@ -174,3 +172,22 @@ i{
 }
 
 /* Footer */
+footer{
+    margin-top: 50px;
+}
+
+/* Contactus */
+.contactusheader{
+    position: absolute;
+    left: 90px;
+}
+
+.field{
+    width: 50%;
+}
+
+/* Aboutus */
+.aboutusheader{
+    position: absolute;
+    left: 90px;
+}

@@ -7,73 +7,23 @@
   <meta name="description" content="chessclub-website">
   <title>Chess Club</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
-    <nav class="sidebar">
-        
-        <ul>
 
-          <li>
-            <a href='#' id="hamburger"><i class="fas fa-bars"></i></a>
-          </li>
-
-          <li>
-            <a href="index.html" id="home"><i class="fas fa-chess-king"></i></a>
-          </li>
-
-          <li>
-            <a href="services.html" id="services"><i class="fas fa-concierge-bell"></i></a>
-          </li>
-          
-          <li>
-            <a href="#" class="feat-btn" id="play"><i class="fas fa-play"></i><!--<span class="fas fa-caret-down first"></span>--></a>
-            <ul class="feat-show">
-              <li>
-                <a href="computer.html" id="computer"><i class="fas fa-robot"></i><em>Computer</em></a>
-              </li>
-              <li>
-                <a href="online.html" id="Omultiplayer"><i class="fas fa-globe"></i><em>Online Multiplayer</em></a>
-              </li>
-              <li>
-                <a href="local.html" id="Lmultiplayer"><i class="fas fa-map-marker-alt"></i><em>Local Multiplayer</em></a>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <a href="learn.html" id="learn"><i class="fas fa-book-open"></i></a>
-          </li>        
-          <li>
-            <a href="help.html" id="news"><i class="fas fa-newspaper"></i></a>
-          </li>
-          <li>
-            <a href="news.html" id="blog"><i class="fas fa-blog"></i></a>
-          </li>
-          <li>
-            <a href="blog.html" id="help"><i class="fas fa-info-circle"></i></a>
-          </li>
-          <li>
-            <a href="aboutus.html" id="aboutus"><i class="fas fa-address-card"></i></a>
-          </li>
-          <li>
-            <a href="contactus.html" id="contactus"><i class="fas fa-address-book"></i></a>
-          </li>
-        </ul>
-        <a class="ver has-text-grey">V.1.0</a>
-      </nav>
-    </header>
+  <!-- Navigation -->
+  <?php include "assets/elements/nav.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-left">
-          The Chess Club
+          The Chess Club <i class="fas fa-chess-king"></i>
           </h1>
           <a href="https://time.is/London" id="time_is_link" rel="nofollow" style="font-size:15px">Time in London:</a>
           <span id="London_z716" style="font-size:15px"></span>
@@ -90,15 +40,6 @@
 
       <!--<div><iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>-->
       <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
-      <!--<article class="message is-dark">
-        <div class="message-header">
-          <p>Dark</p>
-          <button class="delete" aria-label="delete"></button>
-        </div>
-        <div class="message-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-        </div>
-      </article>-->
     </section>
 
     <div class="tile is-ancestor main">
@@ -108,9 +49,9 @@
             <p class="title">Welcome!</p>
             <p class="subtitle">To the chess club. Here are the rules.</p>
             <div class="content mainText">
-              <ol id="rules">
+              <ol class="has-text-left" id="rules">
                 <li>| You don’t talk about Chess club.</li>
-                <li>|<em> YOU DO NOT TALK ABOUT CHESS CLUB.</em></li>
+                <li>|<em class="has-text-danger"> YOU DO NOT TALK ABOUT CHESS CLUB.</em></li>
                 <li>| Someone yells stop, gives up, taps out, the match is over.</li> 
                 <li>| Only two people to a match.</li>
                 <li>| One match at a time Fellas.</li>
@@ -131,14 +72,11 @@
         </article>
       </div>
     </div>
+
     <!-- Footer -->
-    <footer class="footer has-background-black-bis is-bold">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Chess Club</strong> is created by</a>. The dream team!
-        </p>
-      </div>
-    </footer>
+    <?php include "assets/elements/footer.html";?>
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="js/main.js"></script>
