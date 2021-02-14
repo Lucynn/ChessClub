@@ -191,3 +191,9 @@ footer{
     position: absolute;
     left: 90px;
 }
+
+/* Learn img */
+.learnimg{
+    width: 400px !important;
+    height: 400px !important;
+}

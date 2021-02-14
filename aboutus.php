@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="chessclub-website">
-  <title>Chess Club</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
 
@@ -36,15 +27,13 @@
     <div class="tile is-child box">
       <p class="title">Our mission statement!</p>
       <div class="content">
-        <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus laboriosam molestias fuga veritatis incidunt aperiam totam nesciunt enim quasi ullam, error veniam! Fuga, atque? Maiores a reiciendis suscipit error!
-        Hic aspernatur pariatur maxime, ratione veritatis minus fugiat eius soluta quae odit! Eos omnis numquam praesentium est id harum consequatur, sunt quisquam reprehenderit ea quod velit dolorum labore architecto tenetur.</p>
+        <p class="subtitle">We want to make chess accessible to everyone. Especially during current global issues such as COVID-19 making in-person chess game impossible. We thought it would be a good idea for us to create a chess website to host the functionality and community aspects of a regular chess club.  </p>
       </div>
     </div>
     <div class="tile is-child box">
       <p class="title">Who are we?</p>
       <div class="content">
-        <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus laboriosam molestias fuga veritatis incidunt aperiam totam nesciunt enim quasi ullam, error veniam! Fuga, atque? Maiores a reiciendis suscipit error!
-        Hic aspernatur pariatur maxime, ratione veritatis minus fugiat eius soluta quae odit! Eos omnis numquam praesentium est id harum consequatur, sunt quisquam reprehenderit ea quod velit dolorum labore architecto tenetur.</p>
+        <p class="subtitle">We are a small team of individuals coming from a wide set of backgrounds. As a group we are diverse but the one thing we have in common is our enthuisaim for the game of chess. We are all also University students who have a passion for Programming, Design and of course Chess! "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       </div>
     </div>
   </div>
@@ -52,8 +41,7 @@
     <div class="tile is-child box">
       <p class="title">Why are we doing this?</p>
       <div class="content">
-        <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus laboriosam molestias fuga veritatis incidunt aperiam totam nesciunt enim quasi ullam, error veniam! Fuga, atque? Maiores a reiciendis suscipit error!
-        Hic aspernatur pariatur maxime, ratione veritatis minus fugiat eius soluta quae odit! Eos omnis numquam praesentium est id harum consequatur, sunt quisquam reprehenderit ea quod velit dolorum labore architecto tenetur.</p>
+        <p class="subtitle">We where tasked to help a society or club to build a website to suit a particular set of needs. We thought we could achieve the functionality and bolster the community of the local chess club during a pandemic. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       </div>
     </div>
   </div>

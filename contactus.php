@@ -71,16 +71,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="chessclub-website">
-  <title>Chess Club</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
 
@@ -196,6 +187,19 @@
                 </form>
             </div>
         </div>   
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-white">
+                <p class="title has-text-left">Find Us here!</p>
+                <p class="subtitle has-text-left">Address:</p>
+                <p class="content has-text-left">College Rd, Stoke-on-Trent ST4 2DE</p>
+                <p class="subtitle has-text-left">Open hours:</p>
+                <p class="content has-text-left">Mon - Fri: 09:00-18:00</p>
+                <p class="content has-text-left">Sat - Sun: Closed</p>
+                <figure class="is-3by1">
+                    <iframe width='100%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=staffordshire%20university&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div class="zxos8_gm"><a href="https://www.compareboilercover.co.uk/">using a service like this</a></div><div style='overflow:hidden;'><div id='gmap_canvas' style='height:100%;width:100%;'></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
+                </figure>
+            </article>
+      </div>
     </div>
 
 <!-- Contact us form -->
@@ -206,7 +210,6 @@
   adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur.
 </div>
 -->
-
     <!-- Footer -->
     <?php include "assets/elements/footer.html";?>
 

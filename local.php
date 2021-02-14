@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="chessclub-website">
-  <title>Chess Club</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
 
@@ -31,7 +21,7 @@
       <!--<div><iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>-->
       <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
     </section>
-
+<!--
     <div class="tile is-ancestor main">
       <div class="tile is-parent is-4by5">
         <article class="tile is-child box homeChessbg">
@@ -59,6 +49,18 @@
           <figure class="image">
             <iframe src="https://www.openprocessing.org/sketch/309165/embed/" width="1280" height="720"></iframe>
         </figure>
+        </article>
+      </div>
+    </div>-->
+    <div class="tile is-ancestor main">
+      <div class="tile is-parent is-4by3">
+        <article class="tile is-child box homeChessbg">
+          <p class="title">Play against others locally!</p>
+          <p class="subtitle">A way to play with your friends.</p>
+          <figure class="image">
+            <!--<iframe src="https://www.openprocessing.org/sketch/309165/embed/" width="1280" height="720"></iframe>-->
+              <iframe src="http://plainchess.timwoelfle.de/" width="1280" height="720"></iframe>
+          </figure>
         </article>
       </div>
     </div>

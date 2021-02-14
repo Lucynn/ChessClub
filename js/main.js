@@ -18,7 +18,7 @@ $('.sidebar').hover(function(){
     document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>Play';
     document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>Learn';
     document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>News';
-    document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>Blog';
+    //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>Blog';
     document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>Help';
     document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>About us';
     document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>Contact us';
@@ -31,7 +31,7 @@ $('.sidebar').hover(function(){
     document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>';
     document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>';
     document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>';
-    document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>';
+    //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>';
     document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>';
     document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>';
     document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>';
