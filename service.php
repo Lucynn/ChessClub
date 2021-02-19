@@ -27,7 +27,7 @@
         <article class="tile is-child box homeChessbg">
           <div class="content">
             <p class="title has-text-left">Here are the Services we offer.</p>
-            <p class="subtitle has-text-left">We provide the following:</p>
+            <p class="subtitle has-text-left ">We provide the following:</p>
             <div class="content mainText">
               <ul class="has-text-left" id="rules">
                 <li>| Online chess training.</li>
@@ -44,6 +44,8 @@
         <article class="tile is-child box homeChessbg">
           <p class="title"></p>
           <p class="subtitle"></p>
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.softwaresuggest.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F08%2FChallenges-of-business-service-monitoring-in-the-internet-of-services.png&f=1&nofb=1">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.scottmadden.com%2Fwp-content%2Fuploads%2F2019%2F03%2FInnovating-to-Improve-and-Mature-Your-Shared-Services-Organization_LI.png&f=1&nofb=1">
       </div>
     </div>
 

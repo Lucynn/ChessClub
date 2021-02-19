@@ -28,16 +28,16 @@
             <p class="title">News!</p>
             <p class="subtitle">Catch up and stay upto date on chess club news.</p>
             <div class="content mainText">
-          
-            </div>
+            <iframe width="860" height="558" src="https://rss.app/embed/v1/ZH5kPk8WuefqIVig" frameBorder="0"></iframe>
+          </div>
           </div>
         </article>
       </div>
       <div class="tile is-parent is-4by3">
         <article class="tile is-child box homeChessbg">
-          <p class="title"></p>
-          <p class="subtitle"></p>
-   
+          <p class="title">Chess in the News!</p>
+          <p class="subtitle">See Chess in the media</p>
+          <iframe width="860" height="620" frameborder="0" src="https://www.bbc.co.uk/news/av-embeds/54995676/vpid/p08yx2hy"></iframe>   
         </article>
       </div>
     </div>

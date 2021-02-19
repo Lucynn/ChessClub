@@ -29,16 +29,17 @@
             <p class="title">How to Play.</p>
             <p class="subtitle">To the chess club. Here are the rules.</p>
             <div class="content mainText"> 
+              <p>To get started. Familiarise yourself with the website by surfing the menus to see what they have to offer.</p>
             </div>
           </div>
         </article>
       </div>
       <div class="tile is-parent is-4by3">
         <article class="tile is-child box homeChessbg">
-          <p class="title">Learn to Play!</p>
-          <p class="subtitle">Best way to learn is by watching.</p>
-          <figure class="image">
-
+          <p class="title">Terms and Conditions.</p>
+          <p class="subtitle">Here are the websites T&C's</p>
+          <figure class="content mainText">
+            <p>The terms and conditions are meant to be followed when using this site. You are free to reuse the sites code for your own project as long as credits are given.</p>
           </figure>
         </article>
       </div>
