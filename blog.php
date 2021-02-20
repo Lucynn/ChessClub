@@ -11,7 +11,7 @@
     <!--main content-->
     <section class="hero is-dark is-bold">
       <div class="hero-body">
-        <div class="container">
+        <div class="container contactusheader">
           <h1 class="title has-text-left">
           Blog <i class="fas fa-blog"></i>
           </h1>

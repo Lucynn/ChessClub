@@ -91,12 +91,13 @@
       
     <div class="tile is-ancestor main">
         <div class="tile is-16 is-vertical is-parent">
-            <div class="tile is-child box">
+            <div class="tile is-child box homeChessbg">
                 <p class="title has-text-left">Get in touch.</p>
                 <div class="content">
-                    <p class="subtitle has-text-left">If you feel like getting in touch you can email us by fillinf in details below.</p>
+                    <p class="subtitle has-text-left">If you feel like getting in touch you can email us by filling in details below.</p>
                 </div>
 
+                <!-- Contact us form -->
                 <form method="POST">
                     <div class="field">
                         <label class="label has-text-left">Name</label>
@@ -178,17 +179,17 @@
 
                     <div class="field is-grouped">
                         <div class="control">
-                            <button class="button is-primary">Submit</button>
+                            <button class="button is-danger">Submit</button>
                         </div>
                         <div class="control">
-                            <button class="button is-primary is-light">Cancel</button>
+                            <button class="button is-danger is-light">Cancel</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>   
         <div class="tile is-parent">
-            <article class="tile is-child notification is-white">
+            <article class="tile is-child notification homeChessbg">
                 <p class="title has-text-left">Find Us here!</p>
                 <p class="subtitle has-text-left">Address:</p>
                 <p class="content has-text-left">College Rd, Stoke-on-Trent ST4 2DE</p>
@@ -201,8 +202,6 @@
             </article>
       </div>
     </div>
-
-<!-- Contact us form -->
 
 <!--<div class="notification is-danger">
   <button class="delete"></button>

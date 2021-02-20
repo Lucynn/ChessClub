@@ -11,7 +11,7 @@
     <!--main content-->
     <section class="hero is-dark is-bold">
       <div class="hero-body">
-        <div class="container">
+        <div class="container contactusheader">
           <h1 class="title has-text-left">
           News <i class="fas fa-newspaper"></i>
         </div>
@@ -22,22 +22,22 @@
     </section>
 
     <div class="tile is-ancestor main">
-      <div class="tile is-parent is-4by5">
+      <div class="tile is-parent is-4by3">
         <article class="tile is-child box homeChessbg">
           <div class="content">
             <p class="title">News!</p>
             <p class="subtitle">Catch up and stay upto date on chess club news.</p>
-            <div class="content mainText">
-            <iframe width="860" height="558" src="https://rss.app/embed/v1/ZH5kPk8WuefqIVig" frameBorder="0"></iframe>
-          </div>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fhv0uvkywstn31.jpg&f=1&nofb=1">
           </div>
         </article>
       </div>
-      <div class="tile is-parent is-4by3">
+      <div class="tile is-parent is-4by5">
         <article class="tile is-child box homeChessbg">
-          <p class="title">Chess in the News!</p>
-          <p class="subtitle">See Chess in the media</p>
-          <iframe width="860" height="620" frameborder="0" src="https://www.bbc.co.uk/news/av-embeds/54995676/vpid/p08yx2hy"></iframe>   
+          <div class="content">
+            <p class="title">Chess in the News!</p>
+            <p class="subtitle">See Chess in the media</p>
+            <iframe width="820" height="620" frameborder="0" src="https://www.bbc.co.uk/news/av-embeds/54995676/vpid/p08yx2hy"></iframe>   
+          </div>
         </article>
       </div>
     </div>

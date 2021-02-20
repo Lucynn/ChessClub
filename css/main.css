@@ -3,12 +3,16 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
+    color: #C5C6C7;
     font-family: 'Lato', sans-serif;
 }
 
 body{
-    background: rgb(180, 192, 206);
+    /*background: rgb(180, 192, 206);*/
+    background: #0B0C10;
+    background-image: url("/assets/bg/chessclubbgtile2.png");
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* sidebar */
@@ -18,7 +22,6 @@ body{
     width: 75px;
     height: 100%;
     left: 0;
-    background: #000;
 }
 
 /*
@@ -32,8 +35,11 @@ body{
     letter-spacing: 1px;
 }*/
 
+
+
 nav ul{
-    background: #1b1b1b;
+    /* Navigation background*/
+    background: #1a1a1d;
     height: 100%;
     width: 100%;
     list-style: none;
@@ -41,16 +47,17 @@ nav ul{
 
 nav ul li{
     line-height: 60px;
-    border-bottom: 1px solid rgba(255,255,255,0);
 }
 
+/*
 nav ul li:last-child{
     border-bottom: 1px solid rgba(255, 255, 255, 0);
-}
+}*/
 
 nav ul li a{
     position: relative;
-    color: #fff;
+    /* text color in navigation */
+    color: #c5c6c7;
     text-decoration: none;
     font-size: 18px;
     padding-left: 25px;
@@ -61,20 +68,27 @@ nav ul li a{
 }
 
 nav ul li.active a{
-    color: rgb(67, 99, 141);
-    background: #1e1e1e;
-    color: rgb(67, 99, 141);
+    /* on click change color to this */
+    color: #950740;
+    background: #1a1a1d;
 }
 
-nav ul li a:hover i{
-    background: #1e1e1e;
+nav ul li.active i{
+    /* on click change color to this in icon */
+    color: #950740;
 }
 
 /* Icons */
 nav ul li a:hover i{
-    color: rgb(180, 192, 206);
-    background: #1e1e1e;
-    color: rgb(180, 192, 206);
+    /* icon color when hover*/
+    color: #c3073f;
+    background: #1a1a1d;
+}
+
+nav ul li a:hover{
+    /* text color when hover*/
+    color: #c3073f;
+    background: #1a1a1d;
 }
 
 nav ul ul{
@@ -93,25 +107,44 @@ nav ul ul li{
 
 nav ul ul li a{
     font-size: 15px;
-    color: #e6e6e6;
     padding-left: 10px;
 }
 
 nav ul li.active ul li a{
-    color: #e6e6e6;
-    background: rgb(67, 99, 141);
+    /* Background for sub menu*/
+    background: #6f2232;
     border-left-color: transparent;
     width: 100%;
 }
 
+nav ul li.active ul li a{
+    /* Background for sub menu*/
+    background: #6f2232;
+    border-left-color: transparent;
+    width: 100%;
+}
+
+nav ul li.active ul li a:hover{
+    /* colors for sub menu when hover*/
+    background: #c3073f;
+    color: #fff;
+}
+
+/*
+
 nav ul ul li a:hover{
-    color: rgb(180, 192, 206) !important;
-    background: rgb(180, 192, 206) !important;
+    background: pink;
+}*/
+
+nav ul li.active ul li a i{
+    /* on click change color to this icon in submenu */
+    color: #c5c6c7;
 }
 
 nav ul ul li a:hover i{
-    color: #fff;
-    background: rgb(180, 192, 206) !important;
+    /* icons for submenu when hover */
+    color: #fff !important;
+    background: #c3073f;
 }
 
 nav ul li a span{
@@ -151,6 +184,7 @@ i{
 .main{
     margin-left: 3% !important;
     text-align: center !important;
+    color: #fff;
 }
 
 .learnMain{
@@ -163,6 +197,7 @@ i{
 
 .learnSubTitle{
     padding-top: 5%;
+    color: #fff;
 }
 
 .learnTitle{
@@ -175,7 +210,7 @@ i{
 }
 
 .homeChessbg{
-    background: rgb(180, 192, 206);
+    background: hsl(0, 0%, 21%);
 }
 
 #rules{
@@ -183,13 +218,13 @@ i{
 }
 
 #rules li{
-    color: #1b1b1b;
+    color: #C5C6C7;
     font-size: 25px;
 }
 
 /* Service */
 .mainText p{
-    color: #1b1b1b !important;
+    color: #C5C6C7 !important;
 }
 
 /* Footer */
@@ -207,15 +242,17 @@ footer{
     width: 50%;
 }
 
-/* Aboutus */
-.aboutusheader{
-    position: absolute;
-    left: 90px;
-}
-
 /* Learn img */
 .learnimg{
     width: 400px !important;
     height: 400px !important;
     margin-bottom: 20px;
+}
+
+.title{
+    color: #c3073f !important;
+}
+
+.subtitle{
+    color: #fff !important; 
 }

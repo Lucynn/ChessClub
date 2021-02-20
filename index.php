@@ -9,7 +9,7 @@
   <?php include "assets/elements/nav.html"; ?>
 
     <!--main content-->
-    <section class="hero is-dark is-bold">
+    <section class="hero is-dark is-bold header">
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-left">
@@ -34,9 +34,10 @@
     <div class="tile is-ancestor main">
       <div class="tile is-parent is-4by5">
         <article class="tile is-child box homeChessbg">
-          <div class="content">
+          <div class="content"> 
             <p class="title">Welcome!</p>
             <p class="subtitle">To the chess club. Here are the rules.</p>
+            <img src="/assets/logos/chessclublogo3.png" > 
             <div class="content mainText">
               <ol class="has-text-left" id="rules">
                 <li>| You don’t talk about Chess club.</li>
@@ -46,7 +47,7 @@
                 <li>| One match at a time Fellas.</li>
                 <li>| Matches will go on as long as they have to.</li>
                 <li>| If this is your first night at Chess club, you have to Play.</li>             
-              </ol>  
+              </ol>
             </div>
           </div>
         </article>
