@@ -28,7 +28,7 @@
           <p class="title">Play against others Online!</p>
           <p class="subtitle">Best way to get better is by playing.</p>
           <figure class="image">
-            <iframe src="https://play.chessbase.com" style="width:860px;height:580px"></iframe></div>
+            <iframe src="https://play.chessbase.com" style="width:860px;height:600px"></iframe></div>
           </figure>
         </article>
       </div>

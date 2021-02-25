@@ -256,3 +256,25 @@ footer{
 .subtitle{
     color: #fff !important; 
 }
+
+/* Input / textarea placeholer */
+.icolor::placeholder{
+    color: #c3073f;
+}
+
+/* Input / textarea border */
+.icolor{
+    border-color: #950740;
+}
+
+.icolor:focus{
+    border-color: #c3073f;
+}
+
+.icolor:focus::placeholder{
+    color: #6f2232;
+}
+
+.icolor:hover{
+    border-color: #c3073f;
+}

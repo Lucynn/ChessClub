@@ -28,7 +28,7 @@
           <p class="title">Play against the Computer!</p>
           <p class="subtitle">Best way to learn is by training.</p>
           <figure class="image">
-            <iframe src="https://fritz.chessbase.com" style="width:860px;height:580px"></iframe>
+            <iframe src="https://fritz.chessbase.com" style="width:860px;height:600px"></iframe>
           </figure>
         </article>
       </div>

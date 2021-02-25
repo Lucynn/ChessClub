@@ -100,9 +100,9 @@
                 <!-- Contact us form -->
                 <form method="POST">
                     <div class="field">
-                        <label class="label has-text-left">Name</label>
+                        <label class="label has-text-left has-text-danger">Name</label>
                         <div class="control">
-                            <input class="input" type="text" name="name" placeholder="*Insert name here" value="<?php 
+                            <input class="input has-background-black has-text-danger icolor" type="text" name="name" placeholder="*Insert name here" value="<?php 
                                 if(isset($_SESSION['fr_name'])){
                                     echo $_SESSION['fr_name']; 
                                     unset($_SESSION['fr_name']);
@@ -119,9 +119,9 @@
                     </div>
 
                     <div class="field">
-                        <label class="label has-text-left">Email</label>
+                        <label class="label has-text-left has-text-danger">Email</label>
                         <div class="control has-icons-left has-icons-right">
-                            <input class="input" type="email" name="email" placeholder="*Insert Email here" value="<?php 
+                            <input class="input has-background-black has-text-danger icolor" type="email" name="email" placeholder="*Insert Email here" value="<?php 
                                 if(isset($_SESSION['fr_email'])){
                                     echo $_SESSION['fr_email']; 
                                     unset($_SESSION['fr_email']);
@@ -144,9 +144,9 @@
                     </div>
 
                     <div class="field">
-                        <label class="label has-text-left">Message</label>
+                        <label class="label has-text-left has-text-danger">Message</label>
                         <div class="control">
-                            <textarea class="textarea" name="msg" placeholder="*Insert Text"><?php 
+                            <textarea class="textarea has-background-black has-text-danger icolor" name="msg" placeholder="*Insert Text"><?php 
                                 if(isset($_SESSION['fr_msg'])){
                                     echo $_SESSION['fr_msg']; 
                                     unset($_SESSION['fr_msg']);
