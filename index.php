@@ -6,17 +6,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold header">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title has-text-left">
+          <h1 class="title has-text-left headerTitle">
           The Chess Club <i class="fas fa-chess-king"></i>
           </h1>
           <a href="https://time.is/London" id="time_is_link" rel="nofollow" style="font-size:15px">Time in London:</a>
@@ -36,23 +36,12 @@
       <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
     </section>
     <div class="tile is-ancestor main">
-      <div class="tile is-parent is-4by5">
+      <div class="tile is-parent is-4">
         <article class="tile is-child box homeChessbg">
           <div class="content"> 
             <p class="title">Welcome!</p>
-            <p class="subtitle">To the chess club. Here are the rules.</p>
+            <p class="subtitle">To the chess club.</p>
             <img src="/assets/logos/chessclublogo3.png" > 
-            <div class="content mainText">
-              <ol class="has-text-left" id="rules">
-                <li>| You don’t talk about Chess club.</li>
-                <li>|<em class="has-text-danger"> YOU DO NOT TALK ABOUT CHESS CLUB.</em></li>
-                <li>| Someone yells stop, gives up, taps out, the match is over.</li> 
-                <li>| Only two people to a match.</li>
-                <li>| One match at a time Fellas.</li>
-                <li>| Matches will go on as long as they have to.</li>
-                <li>| If this is your first night at Chess club, you have to Play.</li>             
-              </ol>
-            </div>
           </div>
         </article>
       </div>
@@ -61,14 +50,14 @@
           <p class="title">Learn to Play!</p>
           <p class="subtitle">Best way to learn is by watching.</p>
           <figure class="image">
-            <iframe src="https://lichess.org/tv/frame?theme=green-plastic&bg=dark" id="homeChess" allowtransparency="true" frameborder="0"></iframe>
-          </figure>
+            <iframe src="https://lichess.org/tv/frame?theme=grey&bg=dark" style="width:600px;height:400px;" id="homeChess" allowtransparency="true" frameborder="0"></iframe>
+            </figure>
         </article>
       </div>
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

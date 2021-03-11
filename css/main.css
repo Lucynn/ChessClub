@@ -24,19 +24,6 @@ body{
     left: 0;
 }
 
-/*
-.sidebar .text{
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 65px;
-    text-align: center;
-    background: #1e1e1e;
-    letter-spacing: 1px;
-}*/
-
-
-
 nav ul{
     /* Navigation background*/
     background: #1a1a1d;
@@ -48,11 +35,6 @@ nav ul{
 nav ul li{
     line-height: 60px;
 }
-
-/*
-nav ul li:last-child{
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
-}*/
 
 nav ul li a{
     position: relative;
@@ -129,12 +111,6 @@ nav ul li.active ul li a:hover{
     background: #c3073f;
     color: #fff;
 }
-
-/*
-
-nav ul ul li a:hover{
-    background: pink;
-}*/
 
 nav ul li.active ul li a i{
     /* on click change color to this icon in submenu */
@@ -213,10 +189,6 @@ i{
     background: hsl(0, 0%, 21%);
 }
 
-#rules{
-    padding-top: 30px;
-}
-
 #rules li{
     color: #C5C6C7;
     font-size: 25px;
@@ -277,4 +249,162 @@ footer{
 
 .icolor:hover{
     border-color: #c3073f;
+}
+
+.headerTitle{
+    margin-left: 0%; 
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Mobile zones */
+@media only screen and (max-width: 1100px){
+    .headerTitle{
+        margin-left: 11%;
+    }
+
+    nav ul{
+        height: 5%;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    nav ul li:first-child{
+        display: block;
+    }
+
+    .main{
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        margin-top: 1% !important;
+    }
+
+    .learnTitle{
+        font-size: 25px;   
+    }
+
+    .learnSubTitle{
+        font-size: 20px;
+    }
+
+    .learnMain{
+        margin-left: 0 !important;
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+
+    #rules li{
+        font-size: 20px;
+    }
+
+    .field{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .headerTitle{
+        margin-left: 15%;
+    }
+
+    .main{
+        margin-top: 1% !important;
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+
+    .learnTitle{
+        font-size: 24px;   
+    }
+
+    .learnSubTitle{
+        font-size: 20px;
+    }
+
+    .learnMain{
+        margin-left: 0 !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+
+    #rules li{
+        font-size: 18px;
+    }
+
+    .field{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .headerTitle{
+        margin-left: 11%;
+    }
+
+    .main{
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        margin-top: 1% !important;
+    }
+
+    .learnTitle{
+        font-size: 25px;   
+    }
+
+    .learnSubTitle{
+        font-size: 20px;
+    }
+
+    .learnMain{
+        margin-left: 0 !important;
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+
+    #rules li{
+        font-size: 20px;
+    }
+
+    .field{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .headerTitle{
+        margin-left: 16%;
+    }
+
+    .main{
+        margin-top: 5% !important;
+    }
+
+    #rules li{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+
 }

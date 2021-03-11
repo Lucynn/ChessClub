@@ -71,12 +71,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold main">
@@ -197,7 +197,9 @@
                 <p class="content has-text-left">Mon - Fri: 09:00-18:00</p>
                 <p class="content has-text-left">Sat - Sun: Closed</p>
                 <figure class="is-3by1">
-                    <iframe width=860px height=440px id='mapcanvas' src='https://maps.google.com/maps?q=staffordshire%20university&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div class="zxos8_gm"><a href="https://www.compareboilercover.co.uk/">using a service like this</a></div><div style='overflow:hidden;'><div id='gmap_canvas' style='height:100%;width:100%;'></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
+                    <div class="video-container">
+                        <iframe width=860px height=440px id='mapcanvas' src='https://maps.google.com/maps?q=staffordshire%20university&amp;t=&amp;z=10&amp; ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div class="zxos8_gm"><a href="https://www.compareboilercover.co.uk/">using a service like this</a></div><div style='overflow:hidden;'><div id='gmap_canvas' style='height:100%;width:100%;'></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
+                    </div>
                 </figure>
             </article>
       </div>
@@ -210,7 +212,7 @@
 </div>
 -->
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

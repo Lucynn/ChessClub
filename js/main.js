@@ -11,7 +11,10 @@ $('nav ul li').click(function (){
 
 
 // DO something when expanding
-$('.sidebar').hover(function(){
+$('.sidebar').hover(function(){ expand(); }, function() { collapse(); });
+$('.sidebar').on('touchstart', function() { expand(); }, function() {collapse(); });
+
+function expand(){
     $('.sidebar').css("width", "200px");
     document.getElementById("home").innerHTML = '<i class="fas fa-chess-king"></i>Home';  
     document.getElementById("services").innerHTML = '<i class="fas fa-concierge-bell"></i>Services';
@@ -24,28 +27,31 @@ $('.sidebar').hover(function(){
     document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>Contact us';
     document.getElementById("hamburger").innerHTML = '<i class="fas fa-times"></i>';
     $('.ver').css("left", "40%");
-}, function(){
-    $('.sidebar').css("width", "75px");
-    document.getElementById("home").innerHTML = '<i class="fas fa-chess-king"></i>';  
-    document.getElementById("services").innerHTML = '<i class="fas fa-concierge-bell"></i>';
-    document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>';
-    document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>';
-    document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>';
-    //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>';
-    document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>';
-    document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>';
-    document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>';
-    document.getElementById("hamburger").innerHTML = '<i class="fas fa-bars"></i>';
-    $('.ver').css("left", "20%");
-    $('nav ul .feat-show').removeClass("show");
-});
+    $('nav ul').css("height", "100%");
+    $('nav ul li').css("display", "block");
+};
 
-document.addEventListener('DOMContentLoaded', () => {
-    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-      const $notification = $delete.parentNode;
-  
-      $delete.addEventListener('click', () => {
-        $notification.parentNode.removeChild($notification);
-      });
-    });
-  });
+function collapse(){
+  $('.sidebar').css("width", "75px");
+  document.getElementById("home").innerHTML = '<i class="fas fa-chess-king"></i>';  
+  document.getElementById("services").innerHTML = '<i class="fas fa-concierge-bell"></i>';
+  document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>';
+  document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>';
+  document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>';
+  //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>';
+  document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>';
+  document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>';
+  document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>';
+  document.getElementById("hamburger").innerHTML = '<i class="fas fa-bars"></i>';
+  $('.ver').css("left", "20%");
+  $('nav ul .feat-show').removeClass("show");
+  if(screen.width <= 1100 || document.body.clientWidth <= 1100){
+    $('nav ul').css("height", "5%");
+    $('nav ul li').css("display", "none");
+    $('nav ul li:first-child').css("display", "block");
+  }else{
+    $('nav ul').css("height", "100%");
+    $('nav ul li').css("display", "block");
+    $('nav ul li:first-child').css("display", "block");
+  }
+};

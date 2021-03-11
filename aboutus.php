@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -48,7 +48,7 @@
 </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -29,7 +29,18 @@
             <p class="title">How to Play.</p>
             <p class="subtitle">To the chess club. Here are the rules.</p>
             <div class="content mainText"> 
-              <p>To get started. Familiarise yourself with the website by surfing the menus to see what they have to offer.</p>
+              <p>To get started. Familiarise yourself with the website by surfing the menus to see what they have to offer. Here are the chess club rules.</p>
+              <div class="content mainText">
+              <ol class="has-text-left" id="rules">
+                <li>| You don’t talk about Chess club.</li>
+                <li>|<em class="has-text-danger"> YOU DO NOT TALK ABOUT CHESS CLUB.</em></li>
+                <li>| Someone yells stop, gives up, taps out, the match is over.</li> 
+                <li>| Only two people to a match.</li>
+                <li>| One match at a time Fellas.</li>
+                <li>| Matches will go on as long as they have to.</li>
+                <li>| If this is your first night at Chess club, you have to Play.</li>             
+              </ol>
+            </div>
             </div>
           </div>
         </article>
@@ -46,7 +57,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

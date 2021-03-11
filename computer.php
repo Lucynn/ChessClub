@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -28,14 +28,16 @@
           <p class="title">Play against the Computer!</p>
           <p class="subtitle">Best way to learn is by training.</p>
           <figure class="image">
-            <iframe src="https://fritz.chessbase.com" style="width:860px;height:600px"></iframe>
+            <div class="video-container">
+              <iframe src="https://fritz.chessbase.com" style="width:860px;height:600px"></iframe>
+            </div>
           </figure>
         </article>
       </div>
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.html"; ?>
+<?php include "assets/elements/head.amp.html"; ?>
 
 <body>
 
   <!-- Navigation -->
-  <?php include "assets/elements/nav.html"; ?>
+  <?php include "assets/elements/nav.amp.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -58,15 +58,16 @@
           <p class="title">Play against others locally!</p>
           <p class="subtitle">A way to play with your friends.</p>
           <figure class="image">
-            <!--<iframe src="https://www.openprocessing.org/sketch/309165/embed/" width="1280" height="720"></iframe>-->
-              <iframe src="http://plainchess.timwoelfle.de/" width="1280" height="720"></iframe>
+            <div class="video-container">
+              <iframe src="http://plainchess.timwoelfle.de/" width="1280" height="720" frameborder="0"></iframe>
+            </div>
           </figure>
         </article>
       </div>
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.html";?>
+    <?php include "assets/elements/footer.amp.html";?>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
