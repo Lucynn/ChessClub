@@ -22,6 +22,7 @@ body{
     width: 75px;
     height: 100%;
     left: 0;
+    cursor: pointer;
 }
 
 nav ul{
@@ -192,6 +193,7 @@ i{
 #rules li{
     color: #C5C6C7;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 /* Service */
@@ -268,11 +270,34 @@ footer{
 .video-container embed{
     position: absolute;
     top: 0;
+    left: 25%;
+    bottom: 0;
+    right: 25%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video-container2 {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container2 iframe{
+    position: absolute;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    border: 0;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -283,7 +308,7 @@ footer{
     }
 
     nav ul{
-        height: 5%;
+        height: 10%;
     }
 
     nav ul li{
@@ -321,6 +346,13 @@ footer{
     .field{
         width: 300px;
     }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed{
+        left: 8%;
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -355,6 +387,13 @@ footer{
     .field{
         width: 300px;
     }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed{
+        left: 0;
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -387,24 +426,100 @@ footer{
     }
 
     .field{
-        width: 300px;
+        width: 400px;
     }
 }
 
 @media only screen and (max-width: 390px){
-    .headerTitle{
-        margin-left: 16%;
+    .contactusheader{
+        left: 10%;   
     }
 
     .main{
-        margin-top: 5% !important;
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        margin-top: 1% !important;
+    }
+
+    .learnTitle{
+        font-size: 20px;   
+    }
+
+    .learnSubTitle{
+        font-size: 18px;
+    }
+
+    .learnMain{
+        margin-left: 0 !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
     }
 
     #rules li{
         font-size: 15px;
     }
+
+    .field{
+        width: 300px;
+    }
+
+    nav ul{
+        height: 8%;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed{
+        left: 0;
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 360px){
+    .headerTitle{
+        margin-left: 5%;
+    }
 
+    .contactusheader{
+        left: 5%;
+    }
+
+    .main{
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        margin-top: 1% !important;
+    }
+
+    .learnTitle{
+        font-size: 20px;   
+    }
+
+    .learnSubTitle{
+        font-size: 18px;
+    }
+
+    .learnMain{
+        margin-left: 0 !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    #rules li{
+        font-size: 15px;
+    }
+
+    .field{
+        width: 300px;
+    }
+
+    nav ul{
+        height: 7%;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed{
+        left: 0;
+        right: 0;
+    }
 }

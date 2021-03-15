@@ -9,10 +9,9 @@ $('nav ul li').click(function (){
     $(this).addClass("active").siblings().removeClass("active");
 });
 
-
 // DO something when expanding
 $('.sidebar').hover(function(){ expand(); }, function() { collapse(); });
-$('.sidebar').on('touchstart', function() { expand(); }, function() {collapse(); });
+//$('.sidebar').on('click', function(){ expand(); }, function() { collapse(); });
 
 function expand(){
     $('.sidebar').css("width", "200px");
@@ -21,7 +20,6 @@ function expand(){
     document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>Play';
     document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>Learn';
     document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>News';
-    //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>Blog';
     document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>Help';
     document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>About us';
     document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>Contact us';
@@ -38,20 +36,31 @@ function collapse(){
   document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>';
   document.getElementById("learn").innerHTML = '<i class="fas fa-book-open"></i>';
   document.getElementById("news").innerHTML = '<i class="fas fa-newspaper"></i>';
-  //document.getElementById("blog").innerHTML = '<i class="fas fa-blog"></i>';
   document.getElementById("help").innerHTML = '<i class="fas fa-info-circle"></i>';
   document.getElementById("aboutus").innerHTML = '<i class="fas fa-address-card"></i>';
   document.getElementById("contactus").innerHTML = '<i class="fas fa-address-book"></i>';
   document.getElementById("hamburger").innerHTML = '<i class="fas fa-bars"></i>';
   $('.ver').css("left", "20%");
   $('nav ul .feat-show').removeClass("show");
-  if(screen.width <= 1100 || document.body.clientWidth <= 1100){
-    $('nav ul').css("height", "5%");
+  if((screen.width <= 1100 || document.body.clientWidth <= 1100) && (screen.width > 390 || document.body.clientWidth > 390)){
+    $('nav ul').css("height", "10%");
     $('nav ul li').css("display", "none");
     $('nav ul li:first-child').css("display", "block");
+    $('nav ul .feat-show').removeClass("show");
+  }else if((screen.width <= 390 || document.body.clientWidth <= 390) && (screen.width > 360 || document.body.clientWidth > 360)){
+    $('nav ul').css("height", "8%");
+    $('nav ul li').css("display", "none");
+    $('nav ul li:first-child').css("display", "block");
+    $('nav ul .feat-show').removeClass("show");
+  }else if(screen.width <= 360 || document.body.clientWidth <= 360){
+    $('nav ul').css("height", "7%");
+    $('nav ul li').css("display", "none");
+    $('nav ul li:first-child').css("display", "block");
+    $('nav ul .feat-show').removeClass("show");
   }else{
     $('nav ul').css("height", "100%");
     $('nav ul li').css("display", "block");
     $('nav ul li:first-child').css("display", "block");
+    $('nav ul .feat-show').removeClass("show");
   }
 };

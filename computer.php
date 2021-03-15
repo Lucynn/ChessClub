@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.amp.html"; ?>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
-
   <!-- Navigation -->
-  <?php include "assets/elements/nav.amp.html"; ?>
+  <?php include "assets/elements/nav.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -17,9 +16,6 @@
           </h1>
         </div>
       </div>
-
-      <!--<div><iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>-->
-      <!--<iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe></div>-->
     </section>
 
     <div class="tile is-ancestor main">
@@ -36,12 +32,7 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <?php include "assets/elements/footer.amp.html";?>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Footer -->
+  <?php include "assets/elements/footer.html";?>
 </body>
 </html>

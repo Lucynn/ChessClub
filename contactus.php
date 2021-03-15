@@ -71,12 +71,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.amp.html"; ?>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
-
   <!-- Navigation -->
-  <?php include "assets/elements/nav.amp.html"; ?>
+  <?php include "assets/elements/nav.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold main">
@@ -204,19 +203,8 @@
             </article>
       </div>
     </div>
-
-<!--<div class="notification is-danger">
-  <button class="delete"></button>
-  Primar lorem ipsum dolor sit amet, consectetur
-  adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur.
-</div>
--->
+    
     <!-- Footer -->
-    <?php include "assets/elements/footer.amp.html";?>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <script src="js/main.js"></script>
+    <?php include "assets/elements/footer.html";?>
 </body>
 </html>

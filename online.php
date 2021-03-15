@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/elements/head.amp.html"; ?>
+<?php include "assets/elements/head.html"; ?>
 
 <body>
-
   <!-- Navigation -->
-  <?php include "assets/elements/nav.amp.html"; ?>
+  <?php include "assets/elements/nav.html"; ?>
 
     <!--main content-->
     <section class="hero is-dark is-bold">
@@ -34,11 +33,6 @@
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.amp.html";?>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <script src="js/main.js"></script>
+    <?php include "assets/elements/footer.html";?>
 </body>
 </html>
