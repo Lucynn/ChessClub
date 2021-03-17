@@ -1,5 +1,4 @@
 // Navigation
-
 $('.feat-btn').click(function(){
     $('nav ul .feat-show').toggleClass("show");
     $('nav ul .first').toggleClass("rotate");
@@ -10,8 +9,24 @@ $('nav ul li').click(function (){
 });
 
 // DO something when expanding
-$('.sidebar').hover(function(){ expand(); }, function() { collapse(); });
-//$('.sidebar').on('click', function(){ expand(); }, function() { collapse(); });
+x = document.querySelector('.sidebar');
+if (screen.width > 1100 || document.body.clientWidth > 1100){
+  x.removeAttribute('onclick');
+  $('.sidebar').hover(function(){ expand(); }, function() { collapse(); });  
+}else if (screen.width <= 1100 || document.body.clientWidth <= 1100){
+  x.setAttribute(onclick, 'siusiaczek()');
+}
+//$('.sidebar').hover(function(){ expand(); }, function() { collapse(); });
+//$(document).on('hover touch', '.sidebar', function(){ expand(); }, function() { collapse(); });
+//$('.sidebar').on('tap', function(){ expand(); }, function() { collapse(); });
+
+function s(){
+  x = document.querySelector('.sidebar');
+  if ( x.style.width == "75px") {
+    expand();
+  }
+  else collapse();
+};
 
 function expand(){
     $('.sidebar').css("width", "200px");
@@ -27,6 +42,9 @@ function expand(){
     $('.ver').css("left", "40%");
     $('nav ul').css("height", "100%");
     $('nav ul li').css("display", "block");
+    if (screen.width <= 1100 || document.body.clientWidth <= 1100){
+      document.getElementById("play").innerHTML = '<i class="fas fa-play"></i>Play<i style="color:red;font-size: 10px;">(Only for Desktop)</i>';
+    }
 };
 
 function collapse(){

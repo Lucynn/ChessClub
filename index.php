@@ -1,8 +1,3 @@
-<?php 
-  header("Content-Security-Policy: 
-            font-src 'https://fonts.googleapis.com','https://fonts.gstatic.com', 
-            img-src 'self'");
-?>
 <!DOCTYPE html>
 <html lang="en">
 
