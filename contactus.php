@@ -1,3 +1,4 @@
+<?php include "assets/elements/headers.php" ?>
 <?php session_start();
 
     if(isset($_POST['name'])){
@@ -60,6 +61,10 @@
             $subject = '' . $name; // Here put some subject
             $headers = 'From: ' . $email;
             mail($to, $subject, $msg, $headers);
+            unset($_SESSION['fr_name']);
+            unset($_SESSION['fr_email']);
+            unset($_SESSION['fr_msg']);
+            $_SESSION['email_send'] = 'message sent successfully';
 
             $_SESSION['success'] = true;
         }else{
@@ -183,6 +188,13 @@
                         <div class="control">
                             <button class="button is-danger is-light">Cancel</button>
                         </div>
+                        <?php 
+                            // Success
+                            if(isset($_SESSION['email_send'])){
+                                echo '<p class="help is-primary" style="font-size:15px;">' . $_SESSION['email_send'] . '</p>';
+                                unset($_SESSION['email_send']);
+                            }
+                        ?>
                     </div>
                 </form>
             </div>

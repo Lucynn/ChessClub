@@ -16,9 +16,6 @@ if (screen.width > 1100 || document.body.clientWidth > 1100){
 }else if (screen.width <= 1100 || document.body.clientWidth <= 1100){
   x.setAttribute(onclick, 'siusiaczek()');
 }
-//$('.sidebar').hover(function(){ expand(); }, function() { collapse(); });
-//$(document).on('hover touch', '.sidebar', function(){ expand(); }, function() { collapse(); });
-//$('.sidebar').on('tap', function(){ expand(); }, function() { collapse(); });
 
 function s(){
   x = document.querySelector('.sidebar');

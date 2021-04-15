@@ -1,10 +1,10 @@
+<?php include "assets/elements/headers.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <?php include "assets/elements/head.html"; ?>
 
 <body>
-
   <!-- Navigation -->
   <?php include "assets/elements/nav.html"; ?>
 
