@@ -33,6 +33,6 @@
     </div>
 
     <!-- Footer -->
-    <?php include "assets/elements/footer.amp.html";?>
+    <?php include "assets/elements/footer.html";?>
 </body>
 </html>

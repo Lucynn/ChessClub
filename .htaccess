@@ -1,0 +1,17 @@
+### Protect files ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule chess-club index.php
+RewriteRule service service.php
+RewriteRule player-vs-computer computer.php
+RewriteRule player-vs-player online.php
+RewriteRule local local.php
+RewriteRule learn-the-basics learn.php
+RewriteRule news news.php
+RewriteRule help help.php
+RewriteRule about-us aboutus.php
+RewriteRule contact-us contactus.php

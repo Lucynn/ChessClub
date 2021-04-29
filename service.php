@@ -41,7 +41,7 @@
         <article class="tile is-child box homeChessbg">
           <p class="title"></p>
           <p class="subtitle"></p>
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F29%2FCog-scripted-svg-blue.svg%2F717px-Cog-scripted-svg-blue.svg.png&f=1&nofb=1">
+          <img src="assets/img/d.png">
       </div>
     </div>
 

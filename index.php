@@ -14,7 +14,7 @@
           <h1 class="title has-text-left headerTitle">
           The Chess Club <i class="fas fa-chess-king"></i>
           </h1>
-          <a href="https://time.is/London" id="time_is_link" rel="nofollow" style="font-size:15px">Time in London:</a>
+          <!--<a href="https://time.is/London" id="time_is_link" rel="nofollow" style="font-size:15px">Time in London:</a>
           <span id="London_z716" style="font-size:15px"></span>
           <script src="//widget.time.is/t.js"></script>
           <script>
@@ -23,7 +23,7 @@
           <a class="weatherwidget-io" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="London" data-label_2="Weather" data-theme="dark" data-basecolor="#363636" data-accent="rgba(255, 255, 255, 0.0)" >LONDON WEATHER</a>
           <script>
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-          </script>
+          </script>-->
         </div>
       </div>
 
